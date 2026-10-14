@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Paynner from "./components/Paynner"
+import Paynner from "./components/Paynner.jsx"
 import "./index.css"
 
 function App() {
