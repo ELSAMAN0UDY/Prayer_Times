@@ -4,5 +4,8 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:"/Prayer_Times/"
+  base: '/Prayer_Times/',
+  build: {
+    outDir: 'docs',
+  },
 })
